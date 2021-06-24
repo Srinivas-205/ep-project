@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My first form</title>
+  </head>
+  <body>
+  <center>
+    <main>
+        <div class="big">
+      <form action="merge.jsp" method="post">
+        <h1 class="head">Sign up</h1>
+        <label>Enter name: <input id="name" name="entername" type="text" placeholder="Your name....." required></label><br>
+        <br>
+        <label>Email: <input id="email" name="emailid" type="email" placeholder="abc@gmail.com" required></label><br>
+        <br>
+        <label>First name: <input id="name" name="firstname" type="text" placeholder="enter name....." required></label><br>
+        <br>
+        <label>Last time: <input id="lastname" name="lastname" type="text" placeholder="last name....." required></label><br>
+        <br>
+        <label>Password: <input id="password" name="password" type="text" placeholder="enter password....." required></label><br>
+        <br>
+        <label>Confirm password: <input id="confirmpassword" name="confirmpassword" type="text" placeholder="confirmpassword....." required></label><br>
+        <br>
+        <label>Gender: <input type="radio" name="gender" value="male" required> Male</label>
+        <label><input type="radio" name="gender" value="female" required> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label><br>
+        <br>
+        <label>Phone number: <input id="phone" name="phonenumber" type="phone" placeholder="Your phonemumber....." required></label><br>
+        <br>
+        <label>State: </label> 
+        <select id="state" name="state">
+            <option value="ap">choose state...</option>
+            <option value="ap">Andhrapradesh</option>
+            <option value="ca">Telengana</option>
+            <option value="usa">Maharashtra</option>
+            </select><br>
+            <br>
+        <label>Address: <textarea id="textarea" name="address" type="textarea" placeholder="Type here something" required></textarea></label><br>
+        <br>
+        <label><input id="checkbox" name="checkbox" type="checkbox" required>agree the terms and condtions</label>&nbsp;
+       <button type="click">submit</button><br><br>
+
+      </form>
+    </div>
+      </main>
+    </center>
+    </body>
+    </html>
+    <style>
+      .navbar{
+overflow: hidden;
+text-align: center;
+display: inline-block;
+position: relative;
+padding-top: 10px;
+border: 2px solid rgb(0, 0, 0);
+margin-top: 20px;
+box-shadow: 10px 10px 8px #888888;
+border-radius: 12px;
+
+
+}
+.navbar a{
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+padding-top: 10px;
+padding-left: 30px;
+}
+.navbar a:hover {
+  color: #ddd;
+}
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%
+    border
+}
+input, textarea, select {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 20em;
+    margin: 10px;
+    border: 3px solid red;
+    border-radius: 4px;
+    background-color: #fdedec;
+    color: black;
+}
+input[type="email"] {
+    width: 20em;
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #fdedec;
+    color: black;
+}
+input[type="phone"] {
+    width: 20em;
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #fdedec;
+    color: black;
+}
+
+select {
+    width: 20em;
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #fdedec;
+    color: black;
+  }
+textarea{
+vertical-align: middle;
+width: 20em;
+margin: 10px;
+border: 2px solid red;
+border-radius: 4px;
+background-color: #fdedec;
+color: black;
+}
+label{
+color: black;
+width: 150px;
+
+}
+.head{
+    color: red;
+}
+
+body{
+    background-image: url('https://media.easemytrip.com/media/Blog/India/637136726518786264/637136726518786264XJ4q1m.jpg');
+}
+.big{
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 10px 5px 5px rgb(31, 27, 27);
+    width: fit-content;
+    margin-top: 55px;
+}
+</style>
+          
